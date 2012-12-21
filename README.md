@@ -39,8 +39,10 @@ was created, but it is not what we're focused on today.
 
 ## Metaprogramming Ruby
 
-As I started reading this book, I recall a footnote indicating that I should
-exercise and explore the core concepts of the book via IRB.
+As I started reading
+[this book](http://pragprog.com/book/ppmetr/metaprogramming-ruby), I recall a
+footnote indicating that I should exercise and explore the core concepts of the
+book via IRB.
 
 I did this, but, when life interrupted, and I couldn't get back to the book for
 a week, I found that I had completely lost context.
@@ -58,7 +60,7 @@ straight forward *how* to write a spec for some of these concepts.
 
 As an example, consider how self changes throughout this code:
 
-```
+```ruby
 # What is self?
 module SomeModule
   # What is self?
@@ -73,13 +75,13 @@ end
 
 How would you write a spec for that?
 
-If you're just started out, it takes some thinking.
+It takes some thinking if you're just starting out.
 
 But.. if you can figure it out, you're better off for it.
 
 And if you figure it out in a spec that you commit somewhere, you've got a
-easily searched, self-executing set of notes that can easily be referenced and
-shared with a friend.
+easily indexed, self-executing set of notes that can easily be shared with a
+friend.
 
 ## GIT + GRIT
 
@@ -87,9 +89,10 @@ While I'm still relatively new to git, I've found a great way to "work through"
 Git internals is to consider a library like
 [Grit](https://github.com/mojombo/grit), which provides Ruby bindings to Git.
 
-As an example, the [learning-ruby](https://github.com/jedcn/learning-ruby) has a
-spec that uses grit to examine itself. Commits, Trees, Blobs,.. they all come to
-life when you sit down and write up a spec for how you think they should work.
+As an example, the
+[learning-ruby project](https://github.com/jedcn/learning-ruby) has a spec that
+uses grit to examine itself. Commits, Trees, Blobs,.. they all come to life when
+you sit down and write up a spec for how you think they should work.
 
 This has really made the Git Internals section of Scott Chacon's
 [Git Internals](https://peepcode.com/products/git-internals-pdf) or his
@@ -97,7 +100,7 @@ This has really made the Git Internals section of Scott Chacon's
 
 ## Jasmine and JavaScript
 
-What if your not a Rubyist? No problem. These concepts apply to any language
+What if you're not a Rubyist? No problem. These concepts apply to any language
 that has something similar to RSpec or even TestUnit.
 
 Jasmine's [main page](http://pivotal.github.com/jasmine/) introduces Jasmine
