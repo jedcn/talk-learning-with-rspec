@@ -1,5 +1,7 @@
 # Talk: Learning With RSpec
 
+[Learning.. with RSpec](http://www.jednorthridge.com/talks/learning-with-rspec/)
+
 ## Overview
 
 This talk is part of a series focused on **Learning**.
