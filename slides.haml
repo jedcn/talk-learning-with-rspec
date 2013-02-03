@@ -1,0 +1,155 @@
+%section
+  %h1 Learning
+  %h3 ...with RSpec
+  %p
+    %small
+      %a{ href: "http://jednorthridge.com" } Jed Northridge /
+      %a{ href: "http://github.com/jedcn" } @jedcn
+
+%section
+  %p
+    RSpec is
+    %a{ href: "https://github.com/rspec/rspec" } Behaviour Driven Development for Ruby
+    %span.fragment And this is great.
+    %span.fragment And RSpec is great.
+    %span.fragment But..
+
+%section
+  %p
+    \..you are limiting
+    %a{ href: "https://github.com/rspec/rspec" } RSpec's
+    usefulness if you use
+    %a{ href: "https://github.com/rspec/rspec" } RSpec
+    only for 'Behavior Driven Development.'
+
+%section
+  Intro to RSpec?
+  %p.fragment
+    An Example..
+    %a{ href: "https://github.com/rspec/rspec-core/blob/master/spec/rspec/core/command_line_spec.rb" }
+      Command Line Spec
+
+%section
+  %img{ style: "width: 410px; height: 492px;", src: "http://imagery.pragprog.com/products/180/ppmetr.jpg" }
+
+%section
+  %blockquote
+    You might want to keep an irb session open at all times to run quick
+    experiments as you read through this book—or any other Ruby book,
+    for that matter.
+  %small
+    %a{ href: "http://pragprog.com/book/ppmetr/metaprogramming-ruby" } Metaprogramming Ruby
+    \/
+    %a{ href: "https://twitter.com/nusco" } Paulo Perrotta
+
+%section
+  %section
+    Intro to IRB?
+
+  %section
+    %pre
+      %code
+        :preserve
+          $ irb
+          > 1 + 1
+          > 2
+
+  %section
+    %img{ src: "https://raw.github.com/jedcn/talk-learning-with-rspec/master/images/chrome.console.png" }
+
+%section
+  %img{ style: "width: 410px; height: 492px;", src: "http://imagery.pragprog.com/products/180/ppmetr.jpg" }
+
+%section
+  %p
+    Can you write a spec for what you learned while reading a book?
+  %a.fragment{ href: "http://github.roving.com/jnorthridge/metaprogramming-ruby" } jnorthridge/metaprogramming-ruby
+
+%section
+  %section
+    %pre
+      %code
+        :preserve
+          # What is self here?
+          module SomeModule
+            # What is self here?
+            class SomeClass
+              # What is self here?
+              def some_method
+                # What is self here?
+              end
+            end
+          end
+
+%section
+  Let's talk about..
+  %p.fragment git
+
+%section
+  %blockquote
+    Git objects are the actual data of Git, the main thing that the
+    repository is made up of. There are four main object types in Git,
+    the first three being the most important to really understand the
+    main functions of Git.
+  %small
+    %a{ href: "https://peepcode.com/products/git-internals-pdf" } Scott Chacon's Git Internals
+
+%section
+  %h3 Ruby + Git = GRIT
+  %blockquote
+    Grit gives you object oriented read/write access to Git repositories
+    via Ruby.
+  %small
+    %a{ href: "https://github.com/mojombo/grit" } Grit
+
+%section
+  %p
+    Reading through API documentation?
+  %a.fragment{ href: "https://github.com/jedcn/learning-ruby/tree/master/spec/grit" }
+    Write a spec
+
+%section
+  Let's talk about..
+  %p.fragment
+    JavaScript
+
+%section
+  Are you familiar with
+  %a{ href: "http://pivotal.github.com/jasmine/" } Jasmine
+  ?
+
+%section
+  %p
+    Need to author some documentation?
+  %a.fragment{ href: "https://github.com/pivotal/jasmine/blob/dae7b20e1c018830aead62fec77da88d1affe91f/src/introduction.js" }
+    Write a spec
+
+%section
+  %img{ style: "width: 476px; height: 379px;", src: "http://moodyeyeview.files.wordpress.com/2012/01/guy-holding-sewing-machine-in-front-of-crashed-ups-truck1.jpg?w=476&h=379" }
+
+%section
+  %a{ href: "https://www.destroyallsoftware.com/talks/wat" }
+    %img{ style: "width: 410px;", src: "http://www.vvork.com/wp-content/uploads/2006/07/db_vader_sm.gif" }
+
+%section
+  %img{ style: "width: 410px;", src: "http://i0.kym-cdn.com/photos/images/original/000/029/568/i_dont_even_cat.jpg" }
+
+%section
+  %p
+    When should you write a spec?
+  %p
+    When you're..
+  %ul
+    %li.fragment Learning a new language
+    %li.fragment Reading a book
+    %li.fragment Learning a new API
+    %li.fragment Working with a technology that has API bindings
+    %li.fragment Writing some documentation
+    %li.fragment Thinking about a podcast or blog
+
+%section
+  Happy Holidays!
+
+%section
+  %h1 THE END
+  %h3 Jed Northridge
